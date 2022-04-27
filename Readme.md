@@ -20,5 +20,5 @@ aws lambda create-function --endpoint-url=http://localhost:4574 --function-name 
 
 Invoke the Lambda
 ```bash
-aws lambda invoke --function-name my-lambda --endpoint-url=http://localhost:4574 response/out
+aws lambda invoke --function-name my-lambda --endpoint-url=http://localhost:4574 response/out.json
 ```
